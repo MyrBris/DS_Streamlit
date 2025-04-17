@@ -1,5 +1,3 @@
---no-cache-dir
---force-reinstall
 numpy==1.26.4  # Version CRUCIALE (2.x casse matplotlib)
 matplotlib==3.9.2
 seaborn==0.13.2
