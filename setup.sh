@@ -1,3 +1,4 @@
 #!/bin/bash
 pip install --upgrade pip
-pip install --no-cache-dir -r requirements.txt
+pip uninstall numpy -y  # Force la réinstallation
+pip install --no-cache-dir --force-reinstall -r requirements.txt
